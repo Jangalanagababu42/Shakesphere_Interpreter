@@ -26,10 +26,11 @@ function clickHandler() {
       Output.innerText = translatedText;
     })
     .catch(errorHandler);}
+
     else{
       buttonDisable();
     }
-}
+
 
 function errorHandler(error) {
   console.log("Error Occured", error);
