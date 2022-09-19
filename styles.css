@@ -52,7 +52,8 @@ body {
   background-color: var(--primary-color);
 }
 .content button:hover {
-  background-color: whitesmoke;
+  background-color: rgb(65, 105, 155);
+  color: aliceblue;
   transition: all 0.2s;
 }
 .output {
