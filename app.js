@@ -21,6 +21,7 @@ function clickHandler() {
     .catch(errorHandler);}
   else{
   transalte.disabled = true;
+    translate.style.color="red";
   }
 }
 
