@@ -12,7 +12,7 @@ function buttonDisable(){
     transalte.disabled=true;
     transalte.style.backgroundColor="#F8F0E3";
     transalte.style.color="#F8F0E3";
-    console.log("button disbaled");
+    
   
 }
 function clickHandler() {
