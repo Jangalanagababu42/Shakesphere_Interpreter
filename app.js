@@ -30,7 +30,7 @@ function clickHandler() {
     else{
       buttonDisable();
     }
-
+  }
 
 function errorHandler(error) {
   console.log("Error Occured", error);
