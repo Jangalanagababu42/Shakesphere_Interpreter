@@ -20,7 +20,7 @@ function clickHandler() {
     })
     .catch(errorHandler);}
   else{
-  Text.disabled = true;
+  transalte.disabled = true;
   }
 }
 
