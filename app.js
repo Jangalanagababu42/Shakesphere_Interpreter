@@ -10,6 +10,7 @@ function getTranslationURL(input) {
 
 function clickHandler() {
   var Text = textInput.value;
+  if(Text!==""){
   fetch(getTranslationURL(Text))
     .then((response) => response.json())
     .then((json) => {
@@ -17,7 +18,10 @@ function clickHandler() {
       var translatedText = json.contents.translated;
       Output.innerText = translatedText;
     })
-    .catch(errorHandler);
+    .catch(errorHandler);}
+  else{
+  Text.disabled = true;
+  }
 }
 
 function errorHandler(error) {
